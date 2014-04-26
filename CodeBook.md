@@ -1,4 +1,3 @@
-
 (Intermediate) script variables
 features		Names of the 561 attributes
 activity		Names of the 6 activities
@@ -116,4 +115,14 @@ angle.tBodyGyroJerkMean.gravityMean.
 angle.X.gravityMean.
 angle.Y.gravityMean.
 angle.Z.gravityMean.
-=================================================================================
+
+Transformations performed
+ 1. X_test.txt + Y_test.txt + subject_test.txt	are merged (length stays same but width increases)
+ 2. retain only the attributes having mean or std in the name
+ 3. X_train.txt + Y_train.txt + subject_train.txt	are merged (length stays same but width increases)
+ 4. retain only the attributes having mean or std in the name 
+ 5. Data from 4 previous steps is merged into new dataset (tsttrn)  (length increases but width stays the same)
+ 6. Activity attribute is changed into factor with descriptive labels
+ 7. Dataset is melted (2 dimensions activity+subject) 
+ 8. Mean is taken of all variables
+ 9. Dataset is casted to 180 row aggregated set per activity, subject
