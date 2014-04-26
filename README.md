@@ -6,7 +6,13 @@ Contains the scripts created during the Coursera course "Getting and Cleaning da
 Building on: Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 ==================================================================
-Harry Koch
+Author: Harry Koch
+
+Files included / required
+- Readme.md		This file
+- CookBook.md		Describes the resulting dataset and the transformation done to get there
+- run_analysis.R	Script that processes the UCI HAR datasets into a resulting dataset
+- (not included)	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 ==================================================================
 
 This document builds on the original Human Activity Recognition data and is processed in line with the coursera course „Getting and cleansing data” peer assignment.
